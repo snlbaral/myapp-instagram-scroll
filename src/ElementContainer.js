@@ -8,8 +8,9 @@ import ReactNative, {
   PanResponder,
   StyleSheet,
   View,
-  ViewPropTypes,
 } from "react-native";
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+
 
 import getDistance from "./helpers/getDistance";
 import getScale from "./helpers/getScale";
